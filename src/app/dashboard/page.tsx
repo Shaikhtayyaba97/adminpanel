@@ -129,7 +129,7 @@ export default function DashboardPage() {
                 ))
               ) : (
                 <tr>
-                  <td colSpan={6} className="text-center p-4 text-gray-600">No orders found here</td>
+                  <td colSpan={6} className="text-center p-4 text-gray-600">No orders found</td>
                 </tr>
               )}
             </tbody>
