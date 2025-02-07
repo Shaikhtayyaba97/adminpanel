@@ -85,7 +85,7 @@ export default function OrderDetails({ params }: { params: { id: string } }) {
                     />
                   ) : (
                     <div className="w-20 h-20 bg-gray-200 flex items-center justify-center rounded-md">
-                      <span>No Image</span>
+                      <span>No Image found</span>
                     </div>
                   )}
                   <div className="ml-4">
