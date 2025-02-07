@@ -19,7 +19,7 @@ export async function PUT(req: Request) {
 
     const projectId = process.env.NEXT_PUBLIC_SANITY_PROJECT_ID;
     const dataset = process.env.NEXT_PUBLIC_SANITY_DATASET;
-    const apiToken = process.env.NEXT_PUBLIC_SANITY_API_TOKEN;
+    const apiToken = process.env.SANITY_API_TOKEN;
 
     if (!projectId || !dataset || !apiToken) {
       return NextResponse.json({ error: "Sanity environment variables missing" }, { status: 500 });
